@@ -1,0 +1,12 @@
+# (c) Copyright Frontify Ltd., all rights reserved.
+
+.DS_Store
+.idea/
+.vscode/
+!.vscode/extensions.json
+!.vscode/i18n-ally-custom-framework.yml
+!.vscode/launch.example.json
+/node_modules/
+vendor/*
+npm-debug.log
+.phpunit.result.cache

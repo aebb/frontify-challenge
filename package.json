@@ -1,0 +1,19 @@
+{
+  "name": "color-api",
+  "version": "1.0.0",
+  "description": "A simple color api.",
+  "main": "public/index.php",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "php -S localhost:8080 -t public/",
+    "test": "php ./vendor/bin/phpunit --colors=always tests/"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.17.3",
+    "prettier": "^2.3.2"
+  }
+}
